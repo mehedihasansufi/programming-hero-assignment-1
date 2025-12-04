@@ -1,12 +1,25 @@
-:root{
-    --primary-color:#fff;
-    --button-background:#006A50;
-    --secondary-background-color:rgba(9, 161, 92,0.2);
-    --font-dark-1-color:rgba(0, 0, 0,0.5);;
+:root {
+    --primary-color: #fff;
+    --button-background: #006A50;
+    --secondary-background-color: rgba(9, 161, 92, 0.2);
+    --font-dark-1-color: rgba(0, 0, 0, 0.5);
+    --font-dark-2-color: rgba(0, 0, 0, 0.7);
 }
 
+.gray {
+    color: var(--font-dark-2-color);
+}
 
-.btn{
+.every-heading {
+    font-size: 2.7rem;
+    margin-top: 4rem;
+}
+
+.card-p {
+    font-size: 1.1rem;
+}
+
+.btn {
     color: var(--primary-color);
     background-color: var(--button-background);
     border-radius: 8px;
@@ -14,11 +27,11 @@
     padding: .8rem 1.2rem;
     font-size: 1.2rem;
     cursor: pointer;
-     transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 
 
-.btn:hover{
+.btn:hover {
     background-color: var(--primary-color);
     color: var(--button-background);
     border: 2px solid var(--button-background);
@@ -26,28 +39,29 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
-    width: 90%;
+header {
+    width: 85%;
     margin: auto;
 }
 
-nav{
+nav {
     margin-top: 2.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav h1{
+nav h1 {
     font-weight: 600;
     font-size: 1.9rem;
 }
-nav button{
+
+nav button {
     padding: .8rem 1.7rem;
     font-size: 1rem;
     border-radius: 8px;
@@ -59,20 +73,20 @@ nav button{
     cursor: pointer;
 }
 
-nav button:hover{
+nav button:hover {
     background-color: var(--button-background);
     color: var(--primary-color);
-   
+
 }
 
 
 /* banner */
 
-.banner-container{
+.banner-container {
     min-height: 500px;
     background-color: var(--secondary-background-color);
     margin-top: 5rem;
-    border-radius: 12px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,17 +94,132 @@ nav button:hover{
 }
 
 
-.banner-contain{
+.banner-contain {
     width: 50%;
 }
 
-.banner-contain p{
+.banner-contain p {
     color: var(--font-dark-1-color);
     font-size: 1.5rem;
 }
 
-.banner-contain h2{
+.banner-contain h2 {
     font-weight: 700;
     font-size: 3.9rem;
     margin: .6rem 0 1.2rem 0;
+}
+
+/* main */
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+/* pillars section */
+
+
+
+.pillars-container {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.2rem;
+
+}
+
+
+.pillar {
+
+    width: 250px;
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.pillar h3 {
+    font-size: 1.5rem;
+    margin: .8rem 0 .6rem 0;
+}
+
+/* the vision of future */
+
+.vision-of-future p {
+    margin-top: 1.7rem;
+    color: var(--font-dark-1-color);
+}
+
+
+.vision-container {
+    margin-top: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vision-card {
+    position: relative;
+    width: 378px;
+    height: 300px;
+    border-radius: 19px;
+    padding: 1.7rem .9rem 0rem 1.7rem;
+   
+
+}
+
+
+.transformation {
+    /*  single card color design*/
+
+    background-color: rgba(84, 144, 245, 0.2);
+    
+}
+
+.transformation button {
+   
+    background-color: #5490F5;
+   
+}
+
+
+.energy {
+    /*  single card color design*/
+    background-color: rgba(9, 161, 92, 0.2);
+}
+
+.energy button {
+    background-color: #09A15C;
+    margin-top: 2.2rem;
+}
+
+.infrastructure {
+    /*  single card color design*/
+    background-color: rgba(255, 194, 57, 0.2);
+}
+
+.infrastructure button {
+    background-color: #FFC239;
+    margin-top: 2.2rem;
+}
+
+.vision-card h3 {
+    font-size: 1.4rem;
+    margin: .8rem 0;
+    font-weight: 800;
+}
+
+.vision-card p {
+    font-size: 1.2rem;
+    color: var(--font-dark-2-color);
+}
+
+
+.vision-card button {
+    color: var(--primary-color);
+    border: none;
+    font-size: 1.1rem;
+     position: absolute;
+    padding: .7rem 1.1rem;
+    border-radius: 11px;
+     bottom: .8rem;
+    margin-bottom: 1rem;
 }
