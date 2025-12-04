@@ -1,0 +1,96 @@
+:root{
+    --primary-color:#fff;
+    --button-background:#006A50;
+    --secondary-background-color:rgba(9, 161, 92,0.2);
+    --font-dark-1-color:rgba(0, 0, 0,0.5);;
+}
+
+
+.btn{
+    color: var(--primary-color);
+    background-color: var(--button-background);
+    border-radius: 8px;
+    border: none;
+    padding: .8rem 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+     transition: all 0.7s ease;
+}
+
+
+.btn:hover{
+    background-color: var(--primary-color);
+    color: var(--button-background);
+    border: 2px solid var(--button-background);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    margin-top: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+nav button{
+    padding: .8rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid var(--button-background);
+    background: none;
+    color: var(--button-background);
+    transition: all 0.7s ease;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: var(--button-background);
+    color: var(--primary-color);
+   
+}
+
+
+/* banner */
+
+.banner-container{
+    min-height: 500px;
+    background-color: var(--secondary-background-color);
+    margin-top: 5rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.9rem;
+}
+
+
+.banner-contain{
+    width: 50%;
+}
+
+.banner-contain p{
+    color: var(--font-dark-1-color);
+    font-size: 1.5rem;
+}
+
+.banner-contain h2{
+    font-weight: 700;
+    font-size: 3.9rem;
+    margin: .6rem 0 1.2rem 0;
+}
