@@ -42,6 +42,10 @@ body {
 
 }
 
+input:focus{
+    outline: none;
+    border: none;
+}
 
 * {
     margin: 0;
