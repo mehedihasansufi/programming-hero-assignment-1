@@ -363,3 +363,113 @@ select{
     text-align: center;
     margin: auto;
 }
+
+.donate p{
+    margin-top: 1.5rem;
+}
+
+/* donate card */
+
+.donate-container{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.donate-card{
+    width: 200px;
+    background-color: var(--primary-color);
+    padding: 2.2rem;
+    border-radius: 19px;
+    font-weight: 900;
+}
+
+.green{
+    background-color: var(--secondary-background-color);
+}
+.input-form{
+   
+     width: 90%;
+    background-color: var(--primary-color);
+   margin: auto;
+}
+form{
+    margin-top: 1.9rem;
+}
+
+form input{
+    
+    padding: 1.4rem;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--secondary-background-color);
+}
+
+.donate button{
+    margin-top: 2.2rem;
+    padding: 1.2rem 2.2rem;
+}
+
+/* subscribe section */
+
+.subscribe-container{
+    background-color: var(--secondary-background-color);
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 5rem;
+   align-items: center;
+  padding-bottom: 5.3rem;
+  padding-top: 1.3rem;
+}
+.subscribe-contain{
+    width: 50%;
+    text-align: center;
+}
+
+.subscribe-contain p{
+    margin-top: 1.2rem;
+}
+
+/* form email */
+
+.input-email{
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0px;
+
+}
+
+.input-email input{
+    border: none;
+   padding: 1.2rem;
+   width: 550px;
+    border-radius: 12px 0 0 12px;
+    text-align: left;
+    font-size: 1.2rem;
+    display: inline;
+   
+}
+
+.input-email button{
+   border-radius: 0 12px 12px 0;
+   padding: 1.2rem;
+   border: none;
+   background-color: var(--button-background);
+   color: var(--primary-color);
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+
+ .subscribe-container p{
+    margin-top: 2.2rem;
+ }
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
