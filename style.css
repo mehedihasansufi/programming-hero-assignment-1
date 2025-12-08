@@ -6,6 +6,10 @@
     --font-dark-2-color: rgba(0, 0, 0, 0.7);
 }
 
+body {
+    background: #f4f4f4;
+}
+
 .gray {
     color: var(--font-dark-2-color);
 }
@@ -132,7 +136,7 @@ main {
 .pillar {
 
     width: 250px;
-    background: #f4f4f4;
+    background: #fff;
     padding: 1.5rem;
     border-radius: 20px;
 }
@@ -162,7 +166,7 @@ main {
     height: 300px;
     border-radius: 19px;
     padding: 1.7rem .9rem 0rem 1.7rem;
-   
+
 
 }
 
@@ -171,13 +175,13 @@ main {
     /*  single card color design*/
 
     background-color: rgba(84, 144, 245, 0.2);
-    
+
 }
 
 .transformation button {
-   
+
     background-color: #5490F5;
-   
+
 }
 
 
@@ -217,9 +221,100 @@ main {
     color: var(--primary-color);
     border: none;
     font-size: 1.1rem;
-     position: absolute;
+    position: absolute;
     padding: .7rem 1.1rem;
     border-radius: 11px;
-     bottom: .8rem;
+    bottom: .8rem;
     margin-bottom: 1rem;
+}
+
+
+/* description Section */
+
+.description {
+
+    height: 200px;
+    background: url(./assets/quote-bg.png) no-repeat top 1.2rem left 2.7rem, #fff;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2.9rem 1.6rem 1.2rem 2.6rem;
+    border-radius: 12px;
+
+}
+
+.description p {
+
+
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    word-spacing: .3rem;
+    color: var(--font-dark-2-color);
+}
+
+.description h3 {
+
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+/* opinion */
+
+.opinion-container {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 2.6rem;
+}
+
+.opinion-contain {
+    overflow: hidden;
+}
+
+.opinion-heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--secondary-background-color);
+    padding: 1.2rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+
+}
+
+.opinion-details {
+    display: flex;
+    justify-content: space-between;
+     border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.opinion-p {
+    padding: 1.9rem 20.9rem 1.9rem 1.9rem;
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.select-box {
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+ padding: .9rem 1.2rem;
+ display: flex;
+ align-items: center;
+}
+
+select{
+    font-size: .9rem;
+    font-weight: 600;
+    background-color: var(--secondary-background-color);
+    border-radius:5px;
+    padding: .5rem 0 .5rem .6rem;
+    width: 150px;      
+}
+
+/* recent news */
+
+.recent-news P{
+     margin-top: 1.7rem;
+    color: var(--font-dark-1-color);
 }
