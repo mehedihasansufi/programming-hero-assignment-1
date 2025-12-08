@@ -89,7 +89,7 @@ nav button:hover {
 .banner-container {
     min-height: 500px;
     background-color: var(--secondary-background-color);
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -261,7 +261,7 @@ main {
 
 .opinion-container {
     background-color: var(--primary-color);
-   
+
     padding: 30px;
     border-radius: 12px;
     margin-top: 2.6rem;
@@ -286,42 +286,42 @@ main {
 .opinion-details {
     display: flex;
     justify-content: space-between;
-     border: 1px solid rgba(128, 128, 128, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 .opinion-p {
     padding: 1.9rem 20.9rem 1.9rem 1.9rem;
-    
+
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .select-box {
-  border-left: 1px solid rgba(128, 128, 128, 0.5);
- padding: .9rem 1.2rem;
- display: flex;
- align-items: center;
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    padding: .9rem 1.2rem;
+    display: flex;
+    align-items: center;
 }
 
-select{
+select {
     font-size: .9rem;
     font-weight: 600;
     background-color: var(--secondary-background-color);
-    border-radius:5px;
+    border-radius: 5px;
     padding: .5rem 0 .5rem .6rem;
-    width: 150px;      
+    width: 150px;
 }
 
 /* recent news */
 
-.recent-news P{
-     margin-top: 1.7rem;
+.recent-news P {
+    margin-top: 1.7rem;
     color: var(--font-dark-1-color);
 }
 
 
 /* satellite */
-.satellite-container{
+.satellite-container {
     display: flex;
     gap: 2.2rem;
     padding: 3.9rem;
@@ -330,52 +330,53 @@ select{
     margin-top: 2.2rem;
 }
 
-.satellite-container img{
+.satellite-container img {
     border-radius: 15px;
 }
 
-.satellite-details  h3{
+.satellite-details h3 {
 
     font-size: 2.2rem;
     margin-top: .6rem;
     font-weight: 700;
 }
 
-.satellite-details img{
+.satellite-details img {
     margin-top: .5rem;
     display: block;
 }
 
-.satellite-details .span{
+.satellite-details .span {
     margin-top: .8rem;
     display: flex;
     gap: 1.2rem;
 }
 
-.satellite-container button{
+.satellite-container button {
     margin-top: 2.2rem;
 }
 
 /* donate */
 
-.donate{
+.donate {
     width: 90%;
     text-align: center;
     margin: auto;
 }
 
-.donate p{
+.donate p {
     margin-top: 1.5rem;
 }
 
 /* donate card */
 
-.donate-container{
+.donate-container {
     margin-top: 2em;
     display: flex;
     justify-content: space-between;
 }
-.donate-card{
+
+.donate-card {
     width: 200px;
     background-color: var(--primary-color);
     padding: 2.2rem;
@@ -383,93 +384,122 @@ select{
     font-weight: 900;
 }
 
-.green{
+.green {
     background-color: var(--secondary-background-color);
 }
-.input-form{
-   
-     width: 90%;
+
+.input-form {
+
+    width: 90%;
     background-color: var(--primary-color);
-   margin: auto;
+    margin: auto;
 }
-form{
+
+form {
     margin-top: 1.9rem;
 }
 
-form input{
-    
+form input {
+
     padding: 1.4rem;
     border: none;
     font-size: 1.5rem;
     color: var(--secondary-background-color);
 }
 
-.donate button{
+.donate button {
     margin-top: 2.2rem;
     padding: 1.2rem 2.2rem;
 }
 
 /* subscribe section */
 
-.subscribe-container{
+.subscribe-container {
     background-color: var(--secondary-background-color);
     border-radius: 20px;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   margin-top: 5rem;
-   align-items: center;
-  padding-bottom: 5.3rem;
-  padding-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    padding-bottom: 5.3rem;
+    padding-top: 1.3rem;
 }
-.subscribe-contain{
+
+.subscribe-contain {
     width: 50%;
     text-align: center;
 }
 
-.subscribe-contain p{
+.subscribe-contain p {
     margin-top: 1.2rem;
 }
 
 /* form email */
 
-.input-email{
+.input-email {
     margin-top: 1.2rem;
     display: flex;
     gap: 0px;
 
 }
 
-.input-email input{
+.input-email input {
     border: none;
-   padding: 1.2rem;
-   width: 550px;
+    padding: 1.2rem;
+    width: 550px;
     border-radius: 12px 0 0 12px;
     text-align: left;
     font-size: 1.2rem;
     display: inline;
-   
+
 }
 
-.input-email button{
-   border-radius: 0 12px 12px 0;
-   padding: 1.2rem;
-   border: none;
-   background-color: var(--button-background);
-   color: var(--primary-color);
-   font-size: 1.2rem;
-   cursor: pointer;
+.input-email button {
+    border-radius: 0 12px 12px 0;
+    padding: 1.2rem;
+    border: none;
+    background-color: var(--button-background);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
- .subscribe-container p{
+.subscribe-container p {
     margin-top: 2.2rem;
- }
+}
 
 
 /* footer */
 
-footer{
+footer {
     width: 100%;
     background-color: var(--primary-color);
     text-align: center;
+    height: 210px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+
+}
+
+footer h3 {
+    padding-top: 3.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.social-container {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.social-container img{
+    cursor: pointer;
 }
